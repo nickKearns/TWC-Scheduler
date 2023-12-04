@@ -1,0 +1,42 @@
+{
+    "projects": [
+        {
+            "id": "0783BA8E-6C05-4902-9F4F-CA7905295BB7",
+            "name": "Landmark",
+            "location": "Boston",
+            "fieldEmployees": [
+                {
+                    "id": "3221353D-DFAC-4BD9-8624-D4810A02F285",
+                    "name": "Nick"
+                },
+                {
+                    "id": "3221353D-DFAC-4BD9-8624-D4810A02F286",
+                    "name": "Steve"
+                }
+            ]
+        },
+        {
+            "id": "0783BA8E-6C05-4902-9F4F-CA7905295BB6",
+            "name": "Parcel 12",
+            "location": "Boston",
+            "fieldEmployees": [
+                {
+                    "id": "3221353D-DFAC-4BD9-8624-D4810A02F287",
+                    "name": "Mike"
+                },
+                {
+                    "id": "3221353D-DFAC-4BD9-8624-D4810A02F288",
+                    "name": "Tim"
+                },
+                {
+                    "id": "3221353D-DFAC-4BD9-8624-D4810A02F289",
+                    "name": "Mike"
+                },
+                {
+                    "id": "3221353D-DFAC-4BD9-8624-D4810A02F290",
+                    "name": "Mike"
+                }
+            ]
+        }
+    ]
+}
