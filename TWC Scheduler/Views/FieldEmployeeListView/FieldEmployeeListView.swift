@@ -18,10 +18,9 @@ struct FieldEmployeeListView: View {
                 LazyVGrid(columns: columns, pinnedViews: .sectionHeaders) {
                     ForEach(viewModel.projects) { project in
                         Section {
-                            ForEach(project.fieldEmployees) { employee in
-                                VStack {
-                                    Image(systemName: "person.circle")
-                                    Text(employee.name)
+                            ForEach(project.fieldEmployees ?? []) { employee in
+                                List {
+                                    FieldEmployeeListCell(fieldEmployee: employee)
                                 }
                             }
                         } header: {

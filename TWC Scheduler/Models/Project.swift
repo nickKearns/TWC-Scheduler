@@ -6,15 +6,15 @@
 //
 
 import Foundation
+import FirebaseFirestoreSwift
 
 struct AllProjects: Codable {
     let projects: [Project]
 }
 
-struct Project: Identifiable, Codable {
-    let id: UUID
-    let name: String
-    let location: String
-    let fieldEmployees: [FieldEmployee]
-    static let example = Project(id: UUID(), name: "Landmark", location: "Boston", fieldEmployees: [FieldEmployee.example])
+class Project: Identifiable, Codable {
+    @DocumentID var id: String?
+    var name: String
+    var location: String
+    var fieldEmployees: [FieldEmployee]?
 }

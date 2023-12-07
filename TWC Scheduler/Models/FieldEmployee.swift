@@ -6,11 +6,10 @@
 //
 
 import Foundation
+import FirebaseFirestoreSwift
 
 struct FieldEmployee: Identifiable, Codable {
-    let id: UUID
-    let name: String
-    let currentProject: String?
-    
-    static let example = FieldEmployee(id: UUID(), name: "Nick", currentProject: "Landmark")
+    var id: String
+    var name: String
+    var project: String
 }
